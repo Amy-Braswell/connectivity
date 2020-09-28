@@ -1,0 +1,144 @@
+/********************************** TOOLTIP POP UP *********************************/
+
+/***********************************CONFIRM POP UP ************************/
+.react-confirm-alert-blur {
+  filter: url(#gaussian-blur);
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.react-confirm-alert-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.85);
+  z-index: 15000;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  opacity: 0;
+  -webkit-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  -moz-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  -o-animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+  animation: react-confirm-alert-fadeIn 0.5s 0.2s forwards;
+}
+
+.react-confirm-alert {
+  background: white;
+  border-radius: 8px;
+  width: 50%;
+  padding: 2em;
+}
+
+.react-confirm-alert-body {
+  border-radius: 0;
+  padding: 10px 10px 15px;
+  margin: 0;
+  width: 100%;
+  font-size: 1.7em;
+  line-height: 1.2em;
+  color: #666;
+  border-bottom: 1px solid #aaa;
+}
+
+.react-confirm-alert-button-group {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10vh;
+  position: relative;
+  right: -10px;
+  float: right;
+}
+
+.react-confirm-alert-button-group > button {
+  outline: none;
+  background: #333;
+  border: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.react-confirm-alert-button-group > button:first-of-type {
+  background-color: #C23C47;
+  font-size: .8em;
+  letter-spacing: 0.03em;
+  margin-right: 15px;
+}
+
+.react-confirm-alert-button-group > button:last-of-type {
+  background-color: #378273;
+  font-size: .8em;
+  letter-spacing: 0.03em;
+}
+
+
+@-webkit-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes react-confirm-alert-fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+.delete__button .Tooltip-message {
+  margin-left: -2%;
+}
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1600px){
+  .delete__button .Tooltip-message {
+    margin-left: 12%;
+  }
+
+}
+
+
+
+
+
+

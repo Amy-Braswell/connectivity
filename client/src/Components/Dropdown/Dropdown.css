@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+
+.dd-wrapper {
+    display: flex;
+    height: 4vh;
+    flex-wrap: wrap;
+}
+
+.dd-wrapper > div {
+    outline: none;
+}
+
+.dd-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 100%;
+}
+
+.dd-header__title--bold {
+    font-weight: bold;
+}
+
+.bars {
+    font-size: 1.4em;
+    position: absolute;
+    z-index: 10000;
+    top: 4.5vh;
+    right: 3%;
+    color: white;
+}
+
+.times {
+    font-size: 1.4em;
+    position: absolute;
+    z-index: 10000;
+    top: 4.5vh;
+    right: 3%;
+    color: white;
+}
+
+.dd__list {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    width: 100%;
+    position: relative;
+    top: 3.5vh;
+}
+
+
+.dd__li__button {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4em;
+    padding-bottom: 2.2em;
+    border: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.dd__li--width {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: .5em 0;
+    border-bottom: 1px solid #378273;
+    border-top: 1px solid #378273;
+}
+
+.dd__li__button:hover, .dd__li__button:focus {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #d0dfdc;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.dd__li__button a{
+    color: #378273;
+}
+
+
+
+
+

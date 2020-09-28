@@ -1,0 +1,201 @@
+/* POST CARD STYLING  */
+
+.post-card__flex-container {
+  width: 100%;
+  height: auto;
+  background-color:#eee;
+  border: 1px solid #999;
+  box-shadow: 0 8px 21px 0 rgba(0,0,0,.2);
+  border-radius: 8px;
+  margin: 3vh auto;
+  padding: 1vh 5% 1vh 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.post-card__thumbnail {
+  flex-basis: 20%;
+  padding: 5px 30px 50px 20px;
+  margin-right: -3%;
+}
+
+.post-card__thumbnail--round{
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #333;
+}
+
+.post-card__info {
+  flex-basis: 80%;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+} 
+
+.post-card__thumbnail--round >img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* info components*/
+.post-card__title {
+  text-transform: capitalize;
+  font-size: 1.7em;
+  margin: 0 0 1vh;
+}
+
+.post-card__title a {
+  color: #111;
+  display: block;
+  text-decoration: none;
+}
+
+.post-card__title a:hover {
+  color: blue;
+  display: block;
+  text-decoration: none;
+}
+
+p.post-card__body {
+  margin-top: 1vh;
+}
+
+.post-card__dates {
+  color:#555;
+  font-size: 1.1em;
+}
+
+.post-card__button-container__flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vh;
+  height: 25%;
+}
+
+.other-buttons__container {
+  flex-basis: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.delete-button__container {
+  flex-basis: 10%;
+  align-self: flex-end;
+}
+
+/* Tooltip above profile pix */
+.post-card__thumbnail .Tooltip-message {
+  background-color: hsla(0, 0%, 10%, 0.9);
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-left: 1%;
+  min-width: 100px;
+  padding: 10px;
+  position: absolute;
+  /* left: 6%; */
+  top: calc(-8.25vh - 14px);
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+
+.post-card__thumbnail .Tooltip-message:after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid hsla(0, 0%, 20%, 0.9);
+  content: '';
+  margin-left: 5px;
+  left: 35%;
+  position: absolute;
+  top: 3.3vh;
+}
+
+/* ADD COMMENT FORM  */
+
+.add-comment__form {
+  width: 90%;
+  margin: 4vh auto 2vh;
+}
+
+.add-comment__title {
+margin-bottom: 1vh;
+}
+
+.add-comment__flex-container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+   
+.add-comment__form-group {
+display: block;
+font-family: var(--custom-font);
+font-size: 20px;
+flex-basis: 85%;  
+}
+
+.add-comment__button {
+flex-basis: 10%;
+margin-left: 3%; 
+position: relative;
+top: -.25vh;
+
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+  .post-card__flex-container {
+    padding-top: 1vh;
+  }
+
+  .post-card__thumbnail {
+    flex-basis: 20%;
+    padding: 1vh 30px 2vh;
+    margin-right: 0;
+  }
+
+  .post-card__info {
+    flex-basis: 80%; 
+  } 
+
+  /* Tooltip above profile pix */
+.post-card__thumbnail .Tooltip-message {
+  position: relative;
+  margin-left: 15%;
+  top: -18.75vh;
+}
+
+.post-card__thumbnail .Tooltip-message:after {
+  position: absolute;
+  top: 4.5vh;
+}
+
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1600px){
+  .post-card__thumbnail .Tooltip-message {
+    position: relative;
+    margin-left: 6%;
+    top: -13.75vh;
+
+  }
+  
+  .post-card__thumbnail .Tooltip-message:after {
+    position: absolute;
+    top: 3.2vh;
+  }
+
+}

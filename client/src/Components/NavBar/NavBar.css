@@ -1,0 +1,160 @@
+/****************MOBILE-BOTTOM__NAV**************/
+
+  .nav {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    z-index:1000;
+    height:6vh;		
+    background-color:#243d57;
+    box-shadow: 0 -2px 5px -2px #333;  
+  }
+  
+  .nav__flex-container {
+    display:flex;
+    width: 100%;	
+    flex-direction:row;
+    justify-content: space-around;
+    text-align:center;
+    font-size: 1.7em;
+  }
+  
+  .nav__item {
+    flex-basis: 33%;
+    position: relative;
+    top: .75vh;
+  }
+  
+  .nav__item a {
+    color: white;
+  }
+
+  .nav__item a:hover, 
+  .nav__item a:active, 
+  .nav__item a:visited {
+    color: white
+  }
+ 
+  svg {
+      margin: 0;
+      
+  }
+
+  .nav__item .Tooltip-message {
+    background-color: hsla(0, 0%, 10%, 0.9);
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    min-width: 100px;
+    padding: 10px;
+    position: absolute;
+    left: -2.1em;
+    top: calc(-7.5vh - 14px);
+    text-align: center;
+    font-size: .7em;
+    letter-spacing: .04em;
+    white-space: nowrap;
+  }
+
+  .nav__item .Tooltip-message:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid hsla(0, 0%, 20%, 0.9);
+    content: '';
+    font-size: 0;
+    left: 35px;
+    line-height: 0;
+    margin-left: 5px;
+    position: absolute;
+    top: calc(35px);
+    width: 0
+}
+
+/* start hidden */
+.nav__item .Tooltip-message {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* show on hover */
+.nav__item .Tooltip:hover > .Tooltip-message {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: .45s;
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+    .nav {
+        width: 22%;
+        height: 100vh;
+    }
+
+    .nav__flex-container {
+        flex-direction: column;
+        padding-top: 15vh;
+        font-size: 3em;
+    }
+
+    .nav__item {
+        flex-direction:column;
+        padding-top: 15vh;
+    } 
+
+    .nav__item .Tooltip-message {
+      left: -1.5em;
+      top: -7vh;
+      font-size: .4em;
+    }
+  
+    .nav__item .Tooltip-message:after {
+      border-top: 10px solid hsla(0, 0%, 8%, 0.9);
+      top: 4.8vh;
+  }
+
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1400px){
+
+  .nav__item .Tooltip-message {
+    top: -5.5vh;
+  }
+
+  .nav__item .Tooltip-message:after {
+      top: 4vh;
+  }
+
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1600px){
+
+  .nav__item .Tooltip-message {
+    top: -5.25vh;
+  }
+
+  .nav__item .Tooltip-message:after {
+      top: 3.5vh;
+  }
+
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1900px){
+
+  .nav__item .Tooltip-message {
+    top: -5vh;
+  }
+
+  .nav__item .Tooltip-message:after {
+      top: 3.5vh;
+  }
+
+}
+
+

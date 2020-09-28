@@ -1,0 +1,259 @@
+.single-member-main {
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.single-member__title {
+  font-size: 2em;
+  text-align: left;
+  width: 100%;
+  }
+
+.single-member-main .Button--back {
+  position: relative;
+  top: -7.5vh;
+}
+
+.single-member-card__profile-pix {
+  margin: -3.5vh auto 0;
+}
+
+.single-member-card__banner
+{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.single-member-card__banner >img
+{
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.single-member-card__thumbnail
+{
+  margin: 0 auto;
+  z-index: 500;
+  
+}
+
+.single-member-card__thumbnail--round
+{
+  width: 125px;
+  height: 125px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: -13vh auto 0;
+  border: 1px solid black;
+}
+
+.single-member-card__thumbnail--round >img
+{
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.single-member-card__name {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  text-transform: capitalize;
+  margin-bottom: 3vh;
+  padding-top: 1vh;
+}
+
+.single-member-card__info
+{
+  width: 85%;
+  margin: 0 auto;
+  padding: 2vh 0;
+} 
+
+/*********************** Tabs ***********************/
+
+.react-tabs {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.react-tabs__tab-list {;
+  margin: 0 0 10px;
+  padding: 0;
+  background-color: #ccc;
+}
+
+.react-tabs__tab {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 33%;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.react-tabs__tab--selected {
+  color: black;
+  font-style: italic;
+}
+
+.react-tabs__tab--disabled {
+  color: GrayText;
+  cursor: default;
+}
+
+.react-tabs__tab:focus {
+  box-shadow: 0 0 5px hsl(208, 99%, 50%);
+  border-color: hsl(208, 99%, 50%);
+  outline: none;
+}
+
+.react-tabs__tab:focus:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  left: -4px;
+  right: -4px;
+  bottom: -5px;
+  background: #fff;
+}
+
+.react-tabs__tab-panel {
+  display: none;
+}
+
+.react-tabs__tab-panel--selected {
+  display: block;
+}
+
+/******************* Info Section *******************/
+
+.question {
+  font-weight: 600;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+  line-height: 2.25em;
+  margin-bottom: 1vh;
+
+}
+
+.answer {
+  color: #333;
+  padding-left: 3%;
+}
+
+/************** Recent Posts Section ***************/
+
+.member__activity__section__title {
+  font-size: 1.5em;
+  font-weight: 400;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.filtered-post-list {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1vh;
+} 
+
+/******************************** TABLETS AND UP *******************************/
+@media (min-width: 1000px){
+
+  .single-member-main .Button--back {
+    top: -6.75vh;
+  }
+
+  .single-member-card__flex-container
+  {
+    padding: 3vh 3%;
+  }
+
+  .single-member-card__banner
+  {
+    height: 225px;
+    margin: 0 auto 0;
+  }
+
+  .single-member-card__banner >img
+  {
+    margin-top: -4vh;
+  }
+
+  .single-member-card__thumbnail
+  {
+    width: 25%;
+    padding: 5px; 
+  }
+
+  .single-member-card__thumbnail--round
+  {
+      width: 150px;
+      height: 150px;
+      margin: -11vh auto 0;
+  }
+
+  .single-member-card__info
+  {
+    width: 90%;
+    margin: 2vh auto;
+    padding: 2vh 0;
+  } 
+  
+}
+
+/******************************** LAPTOPS AND UP *******************************/
+@media (min-width: 1400px){
+
+  .single-member-main .Button--back {
+  position: relative;
+  top: -7.5vh;
+  }
+
+  .single-member-card__banner {
+  height: 275px;
+  }
+
+  .single-member-card__thumbnail--round
+  {
+    margin: -8.5vh auto 0;
+  }
+
+}
+
+/******************************** DESKTOP AND UP *******************************/
+@media (min-width: 1600px){
+
+  .single-member-main .Button--back {
+    position: relative;
+    top: -5.25vh;
+  }
+
+  .single-member-card__profile-pix {
+    position: relative;
+    top: 2vh;
+  }
+
+  .single-member-card__thumbnail--round
+  {
+    margin: -7vh auto 0;
+  }
+
+}
+
+/******************************** DESKTOP AND UP *******************************/
+@media (min-width: 1900px){
+
+  .single-member-main .Button--back {
+    top: -4.75vh;
+  }
+
+}
+
+

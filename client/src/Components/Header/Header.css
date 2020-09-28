@@ -1,0 +1,49 @@
+.Desktop__header, .Mobile__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    z-index: 1000;
+    background-color: #378273;
+    color: rgb(170, 156, 156);
+    height: 14vh;
+    padding: 0;
+  }
+  
+.app__header__logo__container {
+    position: relative;
+    flex-basis: 60%;
+    align-self: center;
+    margin-top: 2vh;
+    margin-left: 3%;
+}
+
+.app__header__logo__container h1 {
+    font-family: Helvetica Neue;
+    font-size: 3em;
+    letter-spacing: .08em;
+    font-weight: 200;
+}
+
+div.app__header__logo__container a {
+    color: #fff;
+}
+
+.menubar__container {
+    display: block;
+    text-align: right;
+    flex-basis: 40%;
+    align-self: center;
+    position: relative;
+    margin-right: 3%;
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+    .app__header__logo__container {
+        margin-top: -.5vh;
+    }
+
+}

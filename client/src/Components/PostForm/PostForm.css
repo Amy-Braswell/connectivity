@@ -1,0 +1,46 @@
+.add-post__form {
+    width: 100%;
+    margin: 4vh 0 2vh;
+  }
+
+.add-post__title {
+  margin-bottom: 1vh;
+}
+
+.add-post__flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+     
+.add-post__form-group {
+  display: block;
+  font-family: var(--custom-font);
+  font-size: 20px;
+  flex-basis: 85%;  
+}
+
+.add-post__button {
+  flex-basis: 10%;
+  margin-left: 3%; 
+  position: relative;
+  top: -.25vh;
+
+}
+
+.new-post__content {
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 21px 0 rgba(0,0,0,.2);
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+  .add-post__form {
+    width: 100%;
+    margin-top: 2vh;
+  }
+  
+}
+  
