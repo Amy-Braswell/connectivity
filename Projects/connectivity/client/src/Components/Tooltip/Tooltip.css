@@ -1,0 +1,98 @@
+.Tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.Tooltip-content {
+    color: #01A800;
+}
+
+.Tooltip-message {
+    background-color: hsla(0, 0%, 10%, 0.9);
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 5px;
+    margin-left: 1%;
+    min-width: 100px;
+    padding: 10px;
+    position: absolute;
+    left: 6%;
+    top: calc(-8.25vh - 14px);
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: .04em;
+    white-space: nowrap;
+}
+
+.Tooltip-message:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid hsla(0, 0%, 20%, 0.9);
+    content: '';
+    margin-left: 5px;
+    left: 35%;
+    position: absolute;
+    top: 5.3vh;
+}
+
+/* start hidden */
+.Tooltip-message {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+/* show on hover */
+.Tooltip:hover > .Tooltip-message {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: .45s;
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+    .Tooltip-message {
+    top: -9vh
+    }
+
+    .Tooltip-message:after {
+        top: 4.6vh; 
+    }
+}
+
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1400px){
+
+    .Tooltip-message {
+        top: -8vh
+    }
+  
+    .Tooltip-message:after {
+        top: 4vh; 
+    }
+  
+  }
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1600px){
+
+    .Tooltip-message {
+        top: -7vh
+    }
+  
+    .Tooltip-message:after {
+        top: 3.6vh; 
+    }
+  
+  }
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1900px){
+  
+    .Tooltip-message:after {
+        top: 3.5vh; 
+    }
+  
+  }
+  

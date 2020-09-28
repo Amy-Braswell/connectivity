@@ -1,0 +1,175 @@
+.member-card__flex-container {
+  width: 100%;
+  margin:0 auto 3vh;
+  padding: 1vh 5% 1vh 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-card__thumbnail {
+  flex-basis:100%;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 30px 0px;
+  margin-bottom: -10px;
+}
+
+.member-card__thumbnail--round{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid #333;
+  margin: 0 auto;
+}
+
+.member-card__thumbnail--round >img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+.member-card__info {
+  flex-basis: 100%;
+  padding-bottom: 5vh;
+  justify-content: center;
+} 
+  
+/* info components*/
+.member-card__title {
+  text-transform: capitalize;
+  font-size: 1.7em;
+  margin: 0 0 1vh;
+}
+
+.member-card__title a {
+  color: blue;
+  display: block;
+  text-decoration: none;
+}
+
+.member-card__location {
+  font-size: 1.4em;
+  text-align: center;
+}
+
+/* Tooltip above profile pix */
+.member-card__thumbnail .Tooltip-message {
+  background-color: hsla(0, 0%, 10%, 0.9);
+  border-radius: 8px;
+  color: #fff;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  min-width: 100px;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  top: -265px;
+  text-align: center;
+  font-size: 1.2em;
+  letter-spacing: .04em;
+  white-space: nowrap;
+}
+
+.member-card__thumbnail .Tooltip-message:after {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid hsla(0, 0%, 20%, 0.9);
+  content: '';
+  margin-left: 5px;
+  position: absolute;
+  left: 40%;
+  top: 38px;
+}
+
+  /***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+  .member-card__thumbnail--round{
+    margin: 0 auto
+  }
+
+  /* Tooltip above profile pix */
+  .member-card__thumbnail .Tooltip-message {
+    position: relative;
+    margin-left: 9%;
+    top: -34vh;
+  }
+
+  .member-card__thumbnail .Tooltip-message:after {
+    position: absolute;
+    top: 4.6vh;
+  }
+
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1400px){
+  .member-card__thumbnail .Tooltip-message {
+    position: relative;
+    margin-left: 4.5%;
+    top: -28.75vh;
+
+  }
+  
+  .member-card__thumbnail .Tooltip-message:after {
+    position: absolute;
+    margin-left: 5px;
+    left: 46%;
+    top: 4.2vh;
+  }
+
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1400px){
+  .member-card__thumbnail .Tooltip-message {
+    position: relative;
+    margin-left: 4.5%;
+    top: -28.75vh;
+
+  }
+  
+  .member-card__thumbnail .Tooltip-message:after {
+    position: absolute;
+    margin-left: 5px;
+    left: 46%;
+    top: 4.2vh;
+  }
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1600px){
+  .member-card__thumbnail .Tooltip-message {
+    position: relative;
+    margin-left: 4.5%;
+    top: -24.75vh;
+
+  }
+  
+  .member-card__thumbnail .Tooltip-message:after {
+    position: absolute;
+    margin-left: 5px;
+    left: 46%;
+    top: 3.6vh;
+  }
+}
+
+/**************************************** FOR DESKTOPS AND UP ************************************/
+@media (min-width: 1900px){
+  .member-card__thumbnail .Tooltip-message {
+    position: relative;
+    margin-left: 4.5%;
+    top: -24.75vh;
+
+  }
+  
+  .member-card__thumbnail .Tooltip-message:after {
+    position: absolute;
+    margin-left: 5px;
+    left: 46%;
+    top: 3.4vh;
+  }
+}
+  

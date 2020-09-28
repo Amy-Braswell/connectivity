@@ -1,0 +1,460 @@
+/******************** Structure of Overall App **********************/
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+    display: block;
+  }
+
+.Desktop__header {
+  display: none;
+}
+
+.Mobile__header {
+  display: block;
+}
+
+.App__main {
+  width: 100%;
+  margin-top: 14vh;
+  padding-bottom: 7vh;
+  padding-top: 3vh;
+}
+
+.App__sidebar {
+  display: block;
+}
+
+/******************TYPOGRAPHY******************/
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-stretch: expanded;
+  letter-spacing: .03em;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-family: Arial,Helvetica,Helvetica,sans-serif;
+  font-weight: 500;
+  font-size: 1.35em;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 3vh;
+  line-height: 1.5em;
+  letter-spacing: .02em;
+  font-size: 1.3em;
+  color: #182d3f;
+  opacity: .85;
+  text-transform: none;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+}
+
+/*************************** Buttons *****************************/
+
+/* FINAL Back Button */
+.Button--back {
+  background-color: #243d57;
+  border: 1px solid #243d57;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  height: 100%;
+  width: 13%;
+  padding: 9px 8px;
+  font-size: 1.3em;
+  position: relative;
+  top: -2vh;
+  left: 87%;
+}
+
+.Button--back > span {
+  letter-spacing: 0.05em;
+}
+
+.Button--back:hover {
+  background-color: white;
+  color:  #243d57;
+  cursor: pointer;
+}
+
+/* FINAL Comment Button */
+.Button--comment {
+  background-color: #243d57;
+  border: 1px solid #243d57;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  height: 100%;
+  margin: 0 20px;
+  width: 100%;
+  padding: 9px 10px;
+  font-size: 1.3em;
+}
+
+.Button--comment > span {
+  letter-spacing: 0.05em;
+}
+
+.Button--comment:hover {
+  background-color: white;
+  color:  #243d57;
+  cursor: pointer;
+}
+
+/* Final Delete Button */
+.Button--delete  {
+  background-color:#C23C47;
+  border: 1px solid #C23C47;
+  border-radius: 5px;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding: 9px 25px;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.Button--delete:hover {
+  background-color: #fff;
+  color: #C23C47;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* FINAL Like Button */
+.Button--like {
+  background-color: #378273;
+  border: 1px solid #378273;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  height: 100%;
+  margin-right: 20px;
+  width: 100%;
+  padding: 9px 20px;
+  font-size: 1.3em;
+}
+
+.Button--like > span {
+  letter-spacing: 0.05em;
+}
+
+.Button--like:hover {
+  background-color: white;
+  color: #378273;
+  cursor: pointer;
+}
+
+/* FINAL Submit Button */
+.Button--submit button {
+  background-color: #378273;
+  border: 1px solid #378273;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+  color: #fff;
+  outline: none;
+  width: 100%;
+  padding: 9px 10px;
+  font-size: 1.3em;
+  letter-spacing: .03em;
+} 
+
+.Button--submit button:hover {
+  background-color: #fff;
+  color: #378273;
+  cursor: pointer;
+}
+
+svg {
+  margin-right: 5%;
+}
+
+/******** End of Buttons *********/
+
+/***************************** Forms *****************************/
+
+.Add__Comment {
+  padding: 0;
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+
+textarea{
+  font-family: Arial,Helvetica,Helvetica,sans-serif;
+  margin: 1vh 0;
+  background-color: #ddd;
+  border: none;
+  outline: none; 
+  border-radius: 8px;
+  font-size: 1.1em;
+  padding: 1vh 0 1vh 16px;
+  width: 100%;
+}
+
+::placeholder {
+font-family: Arial,Helvetica,Helvetica,sans-serif;
+opacity: .8;
+}
+
+.new__item__content {
+  height: auto;
+  width: 100%;
+}
+
+input:-webkit-autofill::first-line {
+  font-size: .9 em
+}
+
+textarea:-webkit-autofill::first-line {
+  font-size: 1.1 em
+}
+
+input:-webkit-autofill, 
+textarea:-webkit-autofill, 
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+input, input[type=text], input[type=email], input[type=password]
+textarea {
+  border: none;
+  resize: none;
+  border-radius: 4px;
+  /* background-color: #ddd; */
+  -webkit-box-shadow: 0 0 0px 1000px  #ddd inset;
+  -webkit-text-fill-color: #111;
+  color: #111;
+  box-shadow: 0 0 0px 1000px  #ddd inset;
+  outline: none;
+}
+
+
+/**************KEEP THIS ERROR STYLING! *****************/
+.Error.Message {
+  -webkit-box-shadow: 0px 0px 0px 1px #C23C47 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 0px 1px #E0B4B4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  width: 80%;
+  border-radius: 8px;
+  background-color: #FFF6F6;
+  color:  #C23C47;
+  padding: 5px 10px;
+}
+
+.Error__list {
+  list-style-type: disc;
+  margin-left: 10%;
+}
+
+.Error.Message li {
+  margin: 5px;
+  font-size: 1.1em;
+  letter-spacing: .05em;
+}
+
+/**************END OF ERROR STYLING TO KEEP *****************/
+
+/**************KEEP THIS FORM LOADING STYLING! *****************/
+
+
+
+/*************************** List Pages **************************/
+
+/* h2 Title on List Pages */
+.PageTitle {
+  font-size: 2.25em;
+  text-align: center;
+  width: 67%;
+  margin: 0 25% 0 7%;
+}
+
+.ListPage__Row__Item__FlexContainer {
+  width: 100%;
+  height: auto;
+  background-color: #ccc;
+  border: 1px solid #000;
+  margin: 0 27% 8px 3%;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.ListPage__Row__FlexItem__Thumbnail {
+  flex-basis: 23%;
+  overflow: hidden;
+  text-align: center;
+  align-items: center; 
+}
+
+.ListPage__Row__FlexItem__Thumbnail>a>img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ListPage__Row__FlexItem__Info {
+  flex-basis: 75%;
+  padding-left: 8px;
+}  
+
+
+/**************************** Item Pages *****************************/
+
+/* h3 Title above Comment, Message, and Post Lists on Item Main pages*/
+.ItemPageMain__section__title {
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  width: 80%;
+  margin: 4vh 30.5% 8px 9.5%;
+}
+
+/* Comment, Message, and Post Lists on Item Main pages */
+.ItemPageMain__activity {
+  width: 100%;
+} 
+
+.ItemPageMain__activity__section {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Item__in__activity__list {
+  margin: 0 0 8px 0;
+  border: 1px solid #000;
+  padding: 8px;
+  background-color: #ccc;
+  color: #111;
+}
+
+ul.ItemPageMain__Activity__List {
+  padding: 0 0 0 0;
+}
+
+.Item__in__activity__list__FlexContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.Item__in__activity__list__FlexItem__Thumbnail {
+  flex-basis: 23%;
+  overflow: hidden;
+  justify-content: space-between;
+  text-align: center;
+  align-items: top;
+}
+
+.Item__in__activity__list__FlexItem__Thumbnail > img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+} 
+
+.Item__in__activity__list__FlexItem__Info {
+  flex-basis: 75%;
+  padding-left: 3%;
+  text-align: left;
+} 
+
+
+/*****************************Individual Adjustments************************/
+
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 2vh;
+  }
+
+  .App {
+    display: grid;
+    grid-template-areas: "sidebar header" "sidebar main";
+    grid-template-columns: 1fr 3.5fr;
+    grid-template-rows: 14vh 1fr;
+    min-height: 100vh;
+  }
+
+  .App__header {
+    grid-area: header;
+    position: fixed;
+    left: 0;
+  }
+
+  .App__main {
+    background-color: #fff;
+    grid-area: main;
+    height: calc(95vh - 120px);
+    margin-top: 7vh;
+    overflow: auto;
+  }
+
+  .App__sidebar {
+    grid-area: sidebar;
+    height: 100vh;
+    overflow: auto;
+  } 
+
+
+  .Button--back {
+    width: 8%;
+    left: 92%;
+  }
+
+  .Mobile__header {
+    display: none;
+  }
+
+  .Desktop__header {
+    display: flex;
+    justify-content: row;
+    align-content: space-between;
+  }
+
+  .App__main {
+    margin-top: 0;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

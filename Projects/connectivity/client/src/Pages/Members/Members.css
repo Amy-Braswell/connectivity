@@ -1,0 +1,41 @@
+.members-main {
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
+  }
+
+.members__title {
+  font-size: 2.25em;
+  margin-bottom: 5vh;
+  text-align: center;
+  width: 100%;
+}
+
+.members__grid--container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  
+  
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){
+
+    .members__grid--container{
+      grid-template-columns: 50% 50%;
+    }
+
+    
+
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1500px){
+
+    .members__grid--container{
+      grid-template-columns: 33% 33% 33%;
+    }
+
+}
+  
