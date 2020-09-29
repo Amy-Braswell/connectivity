@@ -13,6 +13,8 @@ const pubsub = new PubSub();
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  introspection: true,
+  playground: true,
   context: async ({ req }) => { 
         return {req, pubsub} 
     }
