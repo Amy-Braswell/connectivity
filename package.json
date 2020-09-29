@@ -19,9 +19,7 @@
     "graphql-request": "^2.0.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.5.11",
+    "nodemon": "^1.19.4",
     "react-confirm-alert": "^2.6.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.4"
   }
 }
