@@ -72,7 +72,7 @@ export default function UpdateProfile(props) {
       // grab the successfully logged-in user's Google idToken
       const idToken = localStorage.getItem('jwtToken')
       // create a GraphQL Client object, pass it the token as an auth header
-      const client = new GraphQLClient('http://localhost:5000/graphql', {
+      const client = new GraphQLClient('http://localhost:4000/graphql', {
         headers: {
           authorization: idToken,
         }, 
