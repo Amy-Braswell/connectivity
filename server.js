@@ -13,8 +13,8 @@ const pubsub = new PubSub();
 const server = new ApolloServer({
   typeDefs,
   resolvers,
-  introspection: true,
-  playground: true,
+  // introspection: true,
+  // playground: true,
   context: async ({ req }) => { 
         return {req, pubsub} 
     }
@@ -27,7 +27,7 @@ mongoose
    })
   .then(() => {
     console.log('MongoDB Connected');
-    return server.listen({ port: process.env.PORT || 5000 });
+    return server.listen({ port: process.env.PORT || 4000 });
   })
   .then((res) => {
     console.log(`Server running at ${res.url}`);
