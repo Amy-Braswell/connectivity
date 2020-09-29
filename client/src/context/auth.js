@@ -33,8 +33,8 @@ const AuthContext = createContext({
 function ContextReducer(state, { type, payload}) {
   switch (type) {
     case "CREATE_PHOTO":
-      console.log('CREATE_PHOTO_CASE has run... payload is: ', payload)
-      console.log('updated state is: ', state)
+      // console.log('CREATE_PHOTO_CASE has run... payload is: ', payload)
+      // console.log('updated state is: ', state)
       return {
         ...state,
         newPicture: payload

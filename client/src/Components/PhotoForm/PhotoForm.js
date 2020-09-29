@@ -14,7 +14,7 @@ export default function PhotoForm() {
 
   const {data} = useQuery(FETCH_FOLDERS_QUERY)
 
-  console.log(data)
+  // console.log(data)
 
   const { values, onChange, onSubmit } = useForm({
     image: ''
@@ -32,7 +32,7 @@ export default function PhotoForm() {
 
   submitForm(e) {
     e.preventDefault()
-    console.log(state)
+    // console.log(state)
   } 
 
 
@@ -162,7 +162,7 @@ const CreatePhoto = ({ classes }) => {
       const { createPhoto } = await client.request(CREATE_PHOTO_MUTATION, variables)
       // add new Pin to 'pins' in state, AND set as 'newPin' in state
       dispatch({ type: 'CREATE_PHOTO', payload: createPhoto })
-      console.log('Photo created', { createPhoto })
+      // console.log('Photo created', { createPhoto })
     } catch (err) {
       // re-enable Submit button
       setIsSubmitting(false)
@@ -422,7 +422,7 @@ function CreatePhoto({classes}) {
       'https://api.cloudinary.com/v1_1/amy-braswell/image/upload',
       data
     )
-    console.log(res)
+    // console.log(res)
     return res.data.url
   }
 
@@ -446,10 +446,10 @@ function CreatePhoto({classes}) {
 
       
 
-      console.log(variables)
+      // console.log(variables)
 
       createPhoto()
-      console.log(variables)
+      // console.log(variables)
     } catch (err) {
       // re-enable Submit button
       setIsSubmitting(false)

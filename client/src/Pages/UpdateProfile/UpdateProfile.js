@@ -44,7 +44,7 @@ export default function UpdateProfile(props) {
       }
     ) {
       props.history.push(`/members/${currentData.id}`)
-      console.log('values: ', values)
+      // console.log('values: ', values)
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -88,7 +88,7 @@ export default function UpdateProfile(props) {
       user.picture = await picture
       let newPicture = user.picture.createPhoto.picture
       dispatch({ type: 'CREATE_PHOTO', payload: newPicture })
-      console.log('newPicture = user.picture.createPhoto.picture: ', newPicture)
+      // console.log('newPicture = user.picture.createPhoto.picture: ', newPicture)
     } catch (err) {
       console.error('Error creating Photo', err)
     }
@@ -250,7 +250,7 @@ export default function UpdateProfile(props) {
   const displayTabs = (
     <Tabs
       defaultIndex={0} 
-      onSelect={index => console.log(index)}
+      // onSelect={index => console.log(index)}
     >
         <TabList>
             <Tab>Info</Tab>
