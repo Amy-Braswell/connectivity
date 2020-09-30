@@ -13,9 +13,11 @@
 
 .Mobile__header {
   display: block;
+  position: fixed;
 }
 
 .App__main {
+  background-color: white;
   width: 100%;
   margin-top: 14vh;
   padding-bottom: 7vh;
@@ -68,8 +70,8 @@ a {
 
 /* FINAL Back Button */
 .Button--back {
-  background-color: #243d57;
-  border: 1px solid #243d57;
+  background-color: #0439D9;
+  border: 1px solid #0439D9;
   border-radius: 5px;
   color: white;
   outline: none;
@@ -88,14 +90,14 @@ a {
 
 .Button--back:hover {
   background-color: white;
-  color:  #243d57;
+  color:  #0439D9;
   cursor: pointer;
 }
 
 /* FINAL Comment Button */
 .Button--comment {
-  background-color: #243d57;
-  border: 1px solid #243d57;
+  background-color: #0439D9;
+  border: 1px solid #0439D9;
   border-radius: 5px;
   color: white;
   outline: none;
@@ -112,14 +114,14 @@ a {
 
 .Button--comment:hover {
   background-color: white;
-  color:  #243d57;
+  color:  #0439D9;
   cursor: pointer;
 }
 
 /* Final Delete Button */
 .Button--delete  {
-  background-color:#C23C47;
-  border: 1px solid #C23C47;
+  background-color:#F20505;
+  border: 1px solid #F20505;
   border-radius: 5px;
   outline: none;
   height: 100%;
@@ -131,15 +133,15 @@ a {
 
 .Button--delete:hover {
   background-color: #fff;
-  color: #C23C47;
+  color: #F20505;
   cursor: pointer;
   font-weight: bold;
 }
 
 /* FINAL Like Button */
 .Button--like {
-  background-color: #378273;
-  border: 1px solid #378273;
+  background-color: #056CF2;
+  border: 1px solid #056CF2;
   border-radius: 5px;
   color: white;
   outline: none;
@@ -156,14 +158,14 @@ a {
 
 .Button--like:hover {
   background-color: white;
-  color: #378273;
+  color: #056CF2;
   cursor: pointer;
 }
 
 /* FINAL Submit Button */
 .Button--submit button {
-  background-color: #378273;
-  border: 1px solid #378273;
+  background-color:#0439D9;
+  border: 1px solid #0439D9;
   border-radius: 5px;
   outline: none;
   text-align: center;
@@ -177,7 +179,7 @@ a {
 
 .Button--submit button:hover {
   background-color: #fff;
-  color: #378273;
+  color: #0439D9;
   cursor: pointer;
 }
 
@@ -193,18 +195,6 @@ svg {
   padding: 0;
   float: left;
   text-align: left;
-  width: 100%;
-}
-
-textarea{
-  font-family: Arial,Helvetica,Helvetica,sans-serif;
-  margin: 1vh 0;
-  background-color: #ddd;
-  border: none;
-  outline: none; 
-  border-radius: 8px;
-  font-size: 1.1em;
-  padding: 1vh 0 1vh 16px;
   width: 100%;
 }
 
@@ -226,34 +216,14 @@ textarea:-webkit-autofill::first-line {
   font-size: 1.1 em
 }
 
-input:-webkit-autofill, 
-textarea:-webkit-autofill, 
-input:-webkit-autofill:hover,
-textarea:-webkit-autofill:hover, 
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill:focus,
-input, input[type=text], input[type=email], input[type=password]
-textarea {
-  border: none;
-  resize: none;
-  border-radius: 4px;
-  /* background-color: #ddd; */
-  -webkit-box-shadow: 0 0 0px 1000px  #ddd inset;
-  -webkit-text-fill-color: #111;
-  color: #111;
-  box-shadow: 0 0 0px 1000px  #ddd inset;
-  outline: none;
-}
-
-
 /**************KEEP THIS ERROR STYLING! *****************/
 .Error.Message {
-  -webkit-box-shadow: 0px 0px 0px 1px #C23C47 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: 0px 0px 0px 1px #F20505 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   box-shadow: 0px 0px 0px 1px #E0B4B4 inset, 0px 0px 0px 0px rgba(0, 0, 0, 0);
   width: 80%;
   border-radius: 8px;
   background-color: #FFF6F6;
-  color:  #C23C47;
+  color:  #F20505;
   padding: 5px 10px;
 }
 
@@ -405,7 +375,6 @@ ul.ItemPageMain__Activity__List {
   }
 
   .App__main {
-    background-color: #fff;
     grid-area: main;
     height: calc(95vh - 120px);
     margin-top: 7vh;

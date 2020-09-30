@@ -65,8 +65,8 @@
     left: 0;
     right: 0;
     padding: .5em 0;
-    border-bottom: 1px solid #378273;
-    border-top: 1px solid #378273;
+    border-bottom: 1px solid #0439D9;
+    border-top: 1px solid #0439D9;
 }
 
 .dd__li__button:hover, .dd__li__button:focus {
@@ -81,7 +81,7 @@ li {
 }
 
 .dd__li__button a{
-    color: #378273;
+    color: #0439D9;
 }
 
 

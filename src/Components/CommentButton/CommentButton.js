@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Tooltip from '../Tooltip/Tooltip'
 
+import './CommentButton.css'
+
 
 
 export default function CommentButton({ post: {id, commentCount}}) {
@@ -35,7 +37,7 @@ export default function CommentButton({ post: {id, commentCount}}) {
     )
 
     return (
-        <div>
+        <div className='comment__button'>
               <Tooltip message="Comment">
                 <Link to={`/posts/${id}`}> 
                     {commentButton}

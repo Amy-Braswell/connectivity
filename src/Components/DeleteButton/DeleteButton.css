@@ -73,16 +73,25 @@
 }
 
 .react-confirm-alert-button-group > button:first-of-type {
-  background-color: #C23C47;
+  background-color: #F20505;
   font-size: .8em;
   letter-spacing: 0.03em;
   margin-right: 15px;
 }
 
 .react-confirm-alert-button-group > button:last-of-type {
-  background-color: #378273;
+  background-color: #0439D9;
   font-size: .8em;
   letter-spacing: 0.03em;
+}
+
+.delete__button .Tooltip-message {
+  top: calc(-9.5vh - 14px) !important;
+  left: -40% !important;
+}
+
+.delete__button .Tooltip-message:after {
+  top: calc(35px) !important;
 }
 
 
@@ -124,18 +133,38 @@
 
 /***************************For Tablets and Up****************************/
 @media (min-width: 1000px){
-.delete__button .Tooltip-message {
-  margin-left: -2%;
+  .delete__button .Tooltip-message {
+    top: calc(-8.25vh - 14px) !important;
+  }
+
+  .delete__button .Tooltip-message:after {
+    top: 5vh !important;
+  }
 }
+
+/***************************For Laptops and Up****************************/
+@media (min-width: 1440px){  
+  .delete__button .Tooltip-message {
+      top: calc(-6.25vh - 14px) !important;
+      left: -10% !important;
+  }
+  
+  .delete__button .Tooltip-message:after {
+      top: 3.7vh !important;
+  }
 }
 
 /**************************************** FOR DESKTOPS AND UP ************************************/
-@media (min-width: 1600px){
+/* @media (min-width: 1600px){
   .delete__button .Tooltip-message {
-    margin-left: 12%;
+    top: calc(-9vh - 14px) !important;
+    left: -1% !important;
   }
 
-}
+  .delete__button .Tooltip-message:after {
+    top: 3.8vh !important;
+  }
+} */
 
 
 

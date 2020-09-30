@@ -28,12 +28,6 @@ export default function MenuBar() {
     <nav>
       <div className='menubar__flex-container'>
         <div className='menubar__flex-item'>
-          <Link 
-            to={'/login'}>
-            Login
-          </Link>
-        </div>
-        <div className='menubar__flex-item'>
           <Link to={'/register'}>
             Register
           </Link>

@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Tooltip from '../Tooltip/Tooltip'
 import { LIKE_POST_MUTATION } from '../../graphql.js/mutations'
 
+import './LikeButton.css'
+
 
 
 export default function LikeButton({ user, post: { id, likeCount, likes } }) {
@@ -63,7 +65,7 @@ export default function LikeButton({ user, post: { id, likeCount, likes } }) {
   )
  
   return (
-    <div onClick={likePost}>
+    <div className='like__button' onClick={likePost}>
       <Tooltip  left='-15px'
         message={liked ? 'Unlike' : 'Like'}>
           {likeButton}

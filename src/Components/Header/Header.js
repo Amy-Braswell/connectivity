@@ -26,10 +26,6 @@ export default function Header() {
       const loggedOutItems = [
         {
             id: 1,
-            value: <Link to={'/login'}><span className='dd__li--width'>Login</span></Link>
-        },
-        {
-            id: 2,
             value: <Link to={'/register'}><span className='dd__li--width'>Register</span></Link>
         }
       ]

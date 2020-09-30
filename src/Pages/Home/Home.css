@@ -1,14 +1,53 @@
+.App__main {
+  background:#fff !important;
+  width: 100%;
+  margin-top: 14vh;
+  padding-bottom: 7vh;
+  padding-top: 3vh;
+}
+
 .home-main {
-    height: auto;
-    width: 90%;
-    margin: 0 auto;
-    padding: 0 5%;
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
   }
 
 .home__title {
   font-size: 2.25em;
   text-align: center;
   width: 100%;
+}
+
+textarea{
+  font-family: Arial,Helvetica,Helvetica,sans-serif;
+  margin: 1vh 0;
+  background-color: #ddd;
+  border: none;
+  outline: none; 
+  border-radius: 8px;
+  font-size: 1.1em;
+  padding: 1vh 0 1vh 16px;
+  width: 100%;
+}
+
+input:-webkit-autofill, 
+textarea:-webkit-autofill, 
+input:-webkit-autofill:hover,
+textarea:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill:focus,
+input, input[type=text], input[type=email], input[type=password]
+textarea {
+  border: none;
+  resize: none;
+  border-radius: 4px;
+  background-color: #ddd;
+  -webkit-box-shadow: 0 0 0px 1000px  #ddd inset;
+  -webkit-text-fill-color: #111;
+  color: #111;
+  box-shadow: 0 0 0px 1000px  #ddd inset;
+  outline: none;
 }
 
 

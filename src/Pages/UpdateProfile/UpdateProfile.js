@@ -117,18 +117,19 @@ export default function UpdateProfile(props) {
             <Form onSubmit={handleImageSubmit} className={loading ? 'Loading register--loading' : ''}>
           
               <input
+                className='input--update-picture select-file'
                 name="picture"
                 accept="image/*"
                 id="image"
                 type="file"
                 onChange={e => setPicture(e.target.files[0])}
               />
-              <button 
-                className='update--button'
-                type='button'
-              ></button>
 
-              <div className='Button--submit update__buttons'>
+              <div className="overlay-layer">
+                Click here to select profile photo
+                </div>
+
+              <div className='Button--submit update__buttons button--upload'>
                 <button 
                   className='update--button'
                   type='submit'>
@@ -189,7 +190,6 @@ export default function UpdateProfile(props) {
                     error={errors.city? 'true': 'false'}
                     onChange={onChange}
                   />
-                  {/* is  */}
 
                 </div>
                 
@@ -250,10 +250,9 @@ export default function UpdateProfile(props) {
   const displayTabs = (
     <Tabs
       defaultIndex={0} 
-      // onSelect={index => console.log(index)}
     >
         <TabList>
-            <Tab>Info</Tab>
+            <Tab>Update Info</Tab>
         </TabList>
         <TabPanel>{infoTab}</TabPanel>
     </Tabs>

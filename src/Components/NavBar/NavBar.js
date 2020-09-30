@@ -15,7 +15,7 @@ export default function NavBar() {
     <div>{''}</div>
   ) : (
     <nav className='nav'>
-      <div className='nav__flex-container'>
+      <div className='nav__flex-container nav__bar'>
         <div className='nav__item'>
           <Tooltip message='Posts'>
             <Link to={'/'} name="posts">

@@ -57,7 +57,7 @@ export default function SingleMember(props) {
             {relation && (
             <>
                 <p className='question'>
-                    How do you know the patient? 
+                    What is your relation to the group? 
                 </p>
                 <p className='answer'>
                     {relation}

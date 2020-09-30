@@ -1,0 +1,41 @@
+.comment__button .Tooltip-message {
+    top: calc(-9.5vh - 14px) !important;
+    left: 10% !important;
+  }
+  
+.comment__button .Tooltip-message:after {
+top: calc(35px) !important;
+}
+
+/***************************For Tablets and Up****************************/
+@media (min-width: 1000px){  
+    .comment__button .Tooltip-message {
+        top: calc(-8.25vh - 14px) !important;
+    }
+    
+    .comment__button .Tooltip-message:after {
+        top: 5vh !important;
+    }
+  }
+
+/***************************For Laptops and Up****************************/
+@media (min-width: 1440px){  
+    .comment__button .Tooltip-message {
+        top: calc(-6.25vh - 14px) !important;
+    }
+    
+    .comment__button .Tooltip-message:after {
+        top: 3.8vh !important;
+    }
+  }
+
+/***************************For Laptops and Up****************************/
+/* @media (min-width: 1600px){  
+    .comment__button .Tooltip-message {
+        top: calc(-5.25vh - 14px) !important;
+    }
+    
+    .comment__button .Tooltip-message:after {
+        top: 3.1vh !important;
+    }
+  } */

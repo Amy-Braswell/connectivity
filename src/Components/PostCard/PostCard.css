@@ -91,34 +91,6 @@ p.post-card__body {
   align-self: flex-end;
 }
 
-/* Tooltip above profile pix */
-.post-card__thumbnail .Tooltip-message {
-  background-color: hsla(0, 0%, 10%, 0.9);
-  border-radius: 8px;
-  color: #fff;
-  margin-bottom: 5px;
-  margin-left: 1%;
-  min-width: 100px;
-  padding: 10px;
-  position: absolute;
-  /* left: 6%; */
-  top: calc(-8.25vh - 14px);
-  text-align: center;
-  font-size: 1.2em;
-  letter-spacing: .04em;
-  white-space: nowrap;
-}
-
-.post-card__thumbnail .Tooltip-message:after {
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid hsla(0, 0%, 20%, 0.9);
-  content: '';
-  margin-left: 5px;
-  left: 35%;
-  position: absolute;
-  top: 3.3vh;
-}
 
 /* ADD COMMENT FORM  */
 
@@ -184,18 +156,3 @@ top: -.25vh;
 
 }
 
-/**************************************** FOR DESKTOPS AND UP ************************************/
-@media (min-width: 1600px){
-  .post-card__thumbnail .Tooltip-message {
-    position: relative;
-    margin-left: 6%;
-    top: -13.75vh;
-
-  }
-  
-  .post-card__thumbnail .Tooltip-message:after {
-    position: absolute;
-    top: 3.2vh;
-  }
-
-}
