@@ -1,7 +1,7 @@
 
 <h2> Connectivity </h2>
 
-<img src="https://user-images.githubusercontent.com/55002971/94825744-1f673000-03cc-11eb-9f57-2d1662f895b8.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94825745-1f673000-03cc-11eb-898b-ea08421d934d.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94825747-1fffc680-03cc-11eb-91cd-2cb5e6d5eb42.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94825748-1fffc680-03cc-11eb-982d-2ff632253769.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94825750-1fffc680-03cc-11eb-9142-95a637ba1e28.jpg" width="18%"></img> 
+<img src="https://user-images.githubusercontent.com/55002971/94827980-a5847600-03ce-11eb-8ee4-2b8076300586.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94827984-a61d0c80-03ce-11eb-8b02-24163a9db52f.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94827991-a7e6d000-03ce-11eb-894e-cbe2e7568bfc.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94827999-a87f6680-03ce-11eb-8972-39e97e713eff.jpg" width="18%"></img> <img src="https://user-images.githubusercontent.com/55002971/94828000-a917fd00-03ce-11eb-8925-a6d161b4d248.jpg" width="18%"></img> 
 
 <h3>PROJECT DEMO</h3>
 <p><a href="https://connectivity.now.sh/login" target="blank">Try the App!</a></p>
