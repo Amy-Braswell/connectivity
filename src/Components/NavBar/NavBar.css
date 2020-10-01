@@ -68,7 +68,7 @@
     line-height: 0;
     margin-left: 5px;
     position: absolute;
-    top: calc(35px) !important;
+    top: calc(37px) !important;
     width: 0
 }
 
@@ -107,7 +107,7 @@
 
     .nav__bar .nav__item .Tooltip-message {
       position: relative;
-      top: -14vh !important;
+      top: calc(-11.5vh - 14px) !important;
       left: 18%;
       width: 60%;
       font-size: .4em;
@@ -116,7 +116,7 @@
     .nav__bar .nav__item .Tooltip-message:after {
       position: absolute;
       border-top: 10px solid hsla(0, 0%, 8%, 0.9);
-      top: 4.8vh !important;
+      top: calc(37px) !important;
       left: 40%;
   }
 
@@ -127,40 +127,28 @@
 
   .nav__bar .nav__item .Tooltip-message {
     width: 30%;
-    left: 30%;
-    top: -10vh !important;
+    left: 31%;
+    top: calc(-8.5vh - 14px) !important;
   }
 
   .nav__bar .nav__item .Tooltip-message:after {
-      top: 3.8vh !important;
+    top: calc(38px) !important;
   }
 
 }
 
 /**************************************** FOR DESKTOPS AND UP ************************************/
-/* @media (min-width: 1600px){
+/* @media (min-width: 1680px){
 
   .nav__bar .nav__item .Tooltip-message {
-    top: -5.25vh !important;
-  }
+    top: -8.75vh !important;
+  } 
 
   .nav__bar .nav__item .Tooltip-message:after {
-      top: 3.1vh !important;
+    top: calc(38px) !important;
   }
 
 } */
 
-/**************************************** FOR DESKTOPS AND UP ************************************/
-/* @media (min-width: 1900px){ */
-
-  /* .nav__bar .nav__item .Tooltip-message {
-    top: -5vh;
-  }
-
-  .nav__bar .nav__item .Tooltip-message:after {
-      top: 3.5vh;
-  } */
-
-/* } */
 
 

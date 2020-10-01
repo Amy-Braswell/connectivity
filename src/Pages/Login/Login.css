@@ -7,7 +7,7 @@
   z-index: 500;
 }
 
-.signupSection {
+.login-section {
   position: absolute;
   top: 20%;
   left: 50%;
@@ -21,7 +21,7 @@
   background-color: #056CF2;
 }
 
-.signupForm {
+.login-form {
   width: 70%;
   min-height: 100vh;
   padding: 50% 0 50%;
@@ -29,7 +29,7 @@
   transition: .2s;
 }
 
-.signupForm h2 {
+.login-form h2 {
   font-weight: 300;
 }
 
@@ -170,13 +170,13 @@
 
 @media (min-width: 1000px){
 
-  .signupSection {
+  .login-section {
     transform: translate(-50%, -20%);
     min-height: 101vh;
     max-height: 101vh;
   }
 
-  .signupForm {
+  .login-form {
     transform: translate(0%, -10%);
     min-height: 500px !important;
     max-height: 500px !important;
@@ -193,7 +193,7 @@
 
 @media (min-width: 1440px){
 
-  .signupSection {
+  .login-section {
     transform: translate(-45%, -10%);
     padding-left: 38%;
     padding-right: 30%;
@@ -206,7 +206,7 @@
     background-color: #056CF2;
   }
 
-  .signupForm {
+  .login-form {
     min-height: 500px !important;
     max-height: 500px !important;
     height: 500px;
@@ -221,7 +221,7 @@
 /***************************For Desktops and Up****************************/
 
 @media (min-width: 1680px){
-  .signupForm {
+  .login-form {
     transform: translate(0%, 35%);
   }
 
@@ -232,7 +232,7 @@
 
 /***************************For Large Desktops and Up****************************/
 @media (min-width: 1920px){
-  .signupForm {
+  .login-form {
     transform: translate(0%, 35%);
   }
 

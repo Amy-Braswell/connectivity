@@ -155,16 +155,20 @@
 }
 
 /**************************************** FOR DESKTOPS AND UP ************************************/
-/* @media (min-width: 1600px){
+@media (min-width: 1825px){
   .delete__button .Tooltip-message {
-    top: calc(-9vh - 14px) !important;
+    top: calc(-5.25vh - 14px) !important;
     left: -1% !important;
   }
 
   .delete__button .Tooltip-message:after {
-    top: 3.8vh !important;
+    top: 3.1vh !important;
   }
-} */
+}
+
+
+
+
 
 
 

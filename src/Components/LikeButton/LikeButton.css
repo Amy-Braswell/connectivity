@@ -4,7 +4,7 @@
   }
   
 .like__button .Tooltip-message:after {
-top: calc(35px) !important;
+    top: calc(35px) !important;
 }
 
 /***************************For Tablets and Up****************************/
@@ -29,14 +29,26 @@ top: calc(35px) !important;
     }
   }
 
-/***************************For Laptops and Up****************************/
-/* @media (min-width: 1600px){  
+/***************************For Desktops and Up****************************/
+@media (min-width: 1825px){  
     .like__button .Tooltip-message {
-        top: calc(-8.25vh - 14px) !important;
+        top: calc(-5.25vh - 14px) !important;
         left: -5% !important;
     }
     
     .like__button .Tooltip-message:after {
         top: 3.1vh !important;
     }
-  } */
+  }
+
+/***************************For Large Desktops and Up****************************/
+@media (min-width: 1920px){  
+    .like__button .Tooltip-message {
+        top: calc(-5.25vh - 14px) !important;
+        left: -5% !important;
+    }
+    
+    .like__button .Tooltip-message:after {
+        top: 3.1vh !important;
+    }
+  }

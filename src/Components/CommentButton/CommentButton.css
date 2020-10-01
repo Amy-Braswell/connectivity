@@ -29,8 +29,8 @@ top: calc(35px) !important;
     }
   }
 
-/***************************For Laptops and Up****************************/
-/* @media (min-width: 1600px){  
+/***************************For Desktops and Up****************************/
+@media (min-width: 1825px){  
     .comment__button .Tooltip-message {
         top: calc(-5.25vh - 14px) !important;
     }
@@ -38,4 +38,5 @@ top: calc(35px) !important;
     .comment__button .Tooltip-message:after {
         top: 3.1vh !important;
     }
-  } */
+  }
+

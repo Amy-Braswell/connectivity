@@ -43,7 +43,7 @@ export default function Login(props) {
   return  (
     <section className='login-main'>
       
-      <div className='signupSection'>
+      <div className='login-section'>
       
           {Object.keys(errors).length > 0 && (
             <div className="Error Message">
@@ -55,7 +55,7 @@ export default function Login(props) {
             </div>
           )}
 
-          <Form onSubmit={onSubmit} className={loading ? 'signupForm loading-login' : 'signupForm'}>
+          <Form onSubmit={onSubmit} className={loading ? 'login-form loading-login' : 'login-form'}>
             <ul className="noBullet">
               <li>
                 <label htmlFor="Email"> 
