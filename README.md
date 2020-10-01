@@ -13,7 +13,7 @@
 <ol>
     <li>Clone the repo <a href="https://github.com/Amy-Braswell/connectivity.git" target="blank">git clone https://github.com/Amy-Braswell/connectivity.git</a></li>
     <li>Install NPM Packages</li>
-        <p>npm install</p>  
+        <p>   • npm install</p>  
 </ol>
 
 <h3>BUILT WITH</h3>
