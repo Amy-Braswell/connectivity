@@ -114,7 +114,7 @@ export default function UpdateProfile(props) {
               </div>
             )}
 
-            <Form onSubmit={handleImageSubmit} className={loading ? 'Loading register--loading' : ''}>
+            {/* <Form onSubmit={handleImageSubmit} className={loading ? 'Loading register--loading' : ''}>
           
               <input
                 className='input--update-picture select-file'
@@ -136,12 +136,12 @@ export default function UpdateProfile(props) {
                   Upload
                 </button>
               </div>
-            </Form>
+            </Form> */}
 
             <Form onSubmit={onSubmit} noValidate className={loading ? 'Loading register--loading' : ''}>
           
               <p className='update-question'>
-                    How do you know the patient? 
+                    How are you connected to the group? 
               </p>
 
               <label htmlFor="Relation"/>

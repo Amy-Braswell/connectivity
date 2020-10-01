@@ -12,7 +12,7 @@ import NavBar from './Components/NavBar/NavBar'
 import Home from './Pages/Home/Home'
 import Login from './Pages/Login/Login'
 import Members from './Pages/Members/Members'
-import Register from './Pages/Register/Register'
+// import Register from './Pages/Register/Register'
 import SinglePost from './Pages/SinglePost/SinglePost'
 import SingleMember from './Pages/SingleMember/SingleMember'
 import UpdateProfile from './Pages/UpdateProfile/UpdateProfile'
@@ -59,7 +59,7 @@ function App() {
             <ProtectedRoute exact path="/members/:memberId" component={SingleMember} />
             <ProtectedRoute exact path="/update" component={UpdateProfile} />
             <Route exact path="/login" component={Login} />
-            <Route exact path="/register" component={Register} />
+            {/* <Route exact path="/register" component={Register} /> */}
           </main>
         </div>
       </Router>

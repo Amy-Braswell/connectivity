@@ -13,20 +13,28 @@ export default function Header() {
     const { user, logout } = useContext(AuthContext)
 
     const loggedInItems = [
+        // {
+        //     id: 1,
+        //     value: <Link to={'/about'}><span className='dd__li--width'>About</span></Link>
+        // },
+        // {
+        //     id: 2,
+        //     value: <Link to={'/login'} onClick={logout}><span className='dd__li--width'>Logout</span></Link>
+        // }
         {
             id: 1,
-            value: <Link to={'/about'}><span className='dd__li--width'>About</span></Link>
-        },
-        {
-            id: 2,
             value: <Link to={'/login'} onClick={logout}><span className='dd__li--width'>Logout</span></Link>
         }
       ]
     
       const loggedOutItems = [
+        // {
+        //     id: 1,
+        //     value: <Link to={'/register'}><span className='dd__li--width'>Register</span></Link>
+        // }
         {
-            id: 1,
-            value: <Link to={'/register'}><span className='dd__li--width'>Register</span></Link>
+            id: 2,
+            value: ''
         }
       ]
 

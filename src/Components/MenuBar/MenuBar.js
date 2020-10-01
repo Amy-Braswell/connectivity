@@ -25,15 +25,22 @@ export default function MenuBar() {
       </div>
     </nav>
   ) : (
+    // <nav>
+    //   <div className='menubar__flex-container'>
+    //     <div className='menubar__flex-item'>
+    //       <Link to={'/register'}>
+    //         Register
+    //       </Link>
+    //     </div>
+    //   </div>
+    // </nav>
+
     <nav>
-      <div className='menubar__flex-container'>
-        <div className='menubar__flex-item'>
-          <Link to={'/register'}>
-            Register
-          </Link>
-        </div>
+    <div className='menubar__flex-container'>
+      <div className='menubar__flex-item'>    
       </div>
-    </nav>
+    </div>
+  </nav>
   );
 
   return menuBar;

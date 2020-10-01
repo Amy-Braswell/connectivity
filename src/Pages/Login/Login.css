@@ -69,21 +69,21 @@
   padding: 10px 80px;
 }
 
-  input:-webkit-autofill, 
-  textarea:-webkit-autofill, 
-  input:-webkit-autofill:hover,
-  textarea:-webkit-autofill:hover, 
-  input:-webkit-autofill:focus,
-  textarea:-webkit-autofill:focus,
-  input, input[type=text], input[type=email], input[type=password]
-  textarea {
+  .login-form input:-webkit-autofill, 
+  .login-form textarea:-webkit-autofill, 
+  .login-form input:-webkit-autofill:hover,
+  .login-form textarea:-webkit-autofill:hover, 
+  .login-form input:-webkit-autofill:focus,
+  .login-form textarea:-webkit-autofill:focus,
+  .login-form input, .login-form input[type=text], .login-form input[type=email], .login-form input[type=password]
+  .login-form textarea {
     border: none;
     border-bottom: 1px solid #fff;
+
     resize: none;
     font-size: 1.1em;
     letter-spacing: .12em;
     border-radius: 0;
-    background-color: #ddd;
     -webkit-box-shadow: none;
     -webkit-text-fill-color: #fff;
     color: #fff;

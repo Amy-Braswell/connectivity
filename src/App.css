@@ -225,6 +225,9 @@ textarea:-webkit-autofill::first-line {
   background-color: #FFF6F6;
   color:  #F20505;
   padding: 5px 10px;
+  position: relative;
+  left: 10%;
+  top: -3vh;
 }
 
 .Error__list {

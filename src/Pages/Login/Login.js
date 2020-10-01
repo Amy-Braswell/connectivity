@@ -16,8 +16,8 @@ export default function Login(props) {
   const [errors, setErrors] = useState({})
 
   const { onChange, onSubmit, values } = useForm(loginUserCallback, {
-    email: '',
-    password: ''
+    email: 'demo-user@email.com',
+    password: 'demo-user'
   })
 
   const [loginUser, { loading }] = useMutation(LOGIN_USER, {
@@ -45,17 +45,18 @@ export default function Login(props) {
       
       <div className='login-section'>
       
-          {Object.keys(errors).length > 0 && (
-            <div className="Error Message">
-              <ul className="Error__list">
-                {Object.values(errors).map((value) => (
-                  <li key={value}>{value}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-
           <Form onSubmit={onSubmit} className={loading ? 'login-form loading-login' : 'login-form'}>
+            
+            {Object.keys(errors).length > 0 && (
+              <div className="Error Message">
+                <ul className="Error__list">
+                  {Object.values(errors).map((value) => (
+                    <li key={value}>{value}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            
             <ul className="noBullet">
               <li>
                 <label htmlFor="Email"> 
