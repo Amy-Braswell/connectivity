@@ -18,7 +18,12 @@
 
 .App__main {
   background-color: white;
-  width: 100%;
+  width: 100.25%;
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  position: relative;
+  left: -.25%;
   margin-top: 14vh;
   padding-bottom: 7vh;
   padding-top: 3vh;
@@ -81,7 +86,7 @@ a {
   font-size: 1.3em;
   position: relative;
   top: -2vh;
-  left: 87%;
+  left: 84%;
 }
 
 .Button--back > span {
@@ -254,7 +259,7 @@ textarea:-webkit-autofill::first-line {
   font-size: 2.25em;
   text-align: center;
   width: 67%;
-  margin: 0 25% 0 7%;
+  margin: 0 25% -0 7%;
 }
 
 .ListPage__Row__Item__FlexContainer {
@@ -379,7 +384,6 @@ ul.ItemPageMain__Activity__List {
 
   .App__main {
     grid-area: main;
-    height: calc(95vh - 120px);
     margin-top: 7vh;
     overflow: auto;
   }

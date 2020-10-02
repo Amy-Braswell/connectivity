@@ -62,7 +62,8 @@ export default function Header() {
                     {user ?
                         <Dropdown items={loggedInItems}/> 
                         :
-                        <Dropdown items={loggedOutItems}/> 
+                        // <Dropdown items={loggedOutItems}/> 
+                        <div></div>
                     }
                 </div>
             </div>

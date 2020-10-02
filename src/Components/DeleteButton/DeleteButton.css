@@ -145,24 +145,36 @@
 /***************************For Laptops and Up****************************/
 @media (min-width: 1440px){  
   .delete__button .Tooltip-message {
+      top: calc(-7.25vh - 14px) !important;
+      left: -10% !important;
+  }
+  
+  .delete__button .Tooltip-message:after {
+      top: 4.5vh !important;
+  }
+}
+
+/***************************For Laptops and Up****************************/
+@media (min-width: 1680px){  
+  .delete__button .Tooltip-message {
       top: calc(-6.25vh - 14px) !important;
       left: -10% !important;
   }
   
   .delete__button .Tooltip-message:after {
-      top: 3.7vh !important;
+      top: 3.9vh !important;
   }
 }
 
 /**************************************** FOR DESKTOPS AND UP ************************************/
-@media (min-width: 1825px){
+@media (min-width: 1920px){
   .delete__button .Tooltip-message {
-    top: calc(-5.25vh - 14px) !important;
+    top: calc(-6.25vh - 14px) !important;
     left: -1% !important;
   }
 
   .delete__button .Tooltip-message:after {
-    top: 3.1vh !important;
+    top: 3.9vh !important;
   }
 }
 

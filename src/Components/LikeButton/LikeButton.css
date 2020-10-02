@@ -21,34 +21,35 @@
 /***************************For Laptops and Up****************************/
 @media (min-width: 1440px){  
     .like__button .Tooltip-message {
-        top: calc(-6.25vh - 14px) !important;
+        top: calc(-7.25vh - 14px) !important;
+        left: -10% !important;
     }
     
     .like__button .Tooltip-message:after {
-        top: 3.8vh !important;
+        top: 4.5vh !important;
     }
   }
 
 /***************************For Desktops and Up****************************/
-@media (min-width: 1825px){  
+@media (min-width: 1680px){  
     .like__button .Tooltip-message {
-        top: calc(-5.25vh - 14px) !important;
+        top: calc(-6.25vh - 14px) !important;
         left: -5% !important;
     }
     
     .like__button .Tooltip-message:after {
-        top: 3.1vh !important;
+        top: 3.9vh !important;
     }
   }
 
 /***************************For Large Desktops and Up****************************/
 @media (min-width: 1920px){  
     .like__button .Tooltip-message {
-        top: calc(-5.25vh - 14px) !important;
+        top: calc(-6.25vh - 14px) !important;
         left: -5% !important;
     }
     
     .like__button .Tooltip-message:after {
-        top: 3.1vh !important;
+        top: 3.9vh !important;
     }
   }
