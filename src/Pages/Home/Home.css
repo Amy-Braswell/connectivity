@@ -1,5 +1,7 @@
 .App__main {
   background:#fff !important;
+  overflow-y: scroll;
+  transform: translate(-0%, -100vh);
   width: 100%;
   margin-top: 14vh;
   padding-bottom: 7vh;
@@ -11,7 +13,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 5% 9vh;
-  transform: translate(-0%, -110vh);
   }
 
 .home__title {
@@ -53,7 +54,7 @@ textarea {
 /***************************For Tablets and Up****************************/
 
 @media (min-width: 1000px){
-  .home-main {
+  .App__main {
     transform: translate(0, 0);
   }
 }

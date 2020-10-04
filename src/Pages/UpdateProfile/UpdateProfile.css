@@ -7,7 +7,6 @@ form {
   width: 100%;
   margin: 0 auto;
   padding: 0 5%;
-  transform: translate(-0%, -100vh);
 }
 
 .update-member__title {
@@ -229,10 +228,6 @@ input.update-answer
 
 /******************************** IPAD AND UP *******************************/
 @media (min-width: 1000px){
-
-  .update-member-main {
-    transform: translate(0, 0);
-  }
 
   .update-pencil {
     top: 3vh;

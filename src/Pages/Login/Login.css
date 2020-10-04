@@ -35,7 +35,7 @@ footer {
   max-height: 100vh;
   overflow-y: hidden;
   padding-left: 5%;
-  transform: translate(-0%, -110vh);
+  transform: translate(0%, -10vh);
 }
 
 .login-form {
@@ -183,20 +183,19 @@ footer {
 @media (min-width: 1000px){
 
   .login-section { 
-    transform: translate(-3%, -30%);
+    transform: translate(0, -20%);
     padding-left: 0; 
+    background-color:#056CF2;
   }
 
   .login-form {
-    transform: translate(-18%, -5%);
     width: 100%;
-    padding-left: 25%;
     padding-right: 25%;
   }
 
   .loading-login:after {
-    top: 61%;
-    left: 48%;
+    top: 58%;
+    left: 35%;
   }
 
 }
@@ -206,7 +205,7 @@ footer {
 @media (min-width: 1440px){
 
   .login-form {
-    transform: translate(-20%, -20%);
+    transform: translate(0%, -20%);
   }
 
   footer {
@@ -220,8 +219,8 @@ footer {
   }
 
   .loading-login:after {
-    top: 65%;
-    left: 49%;
+    top: 62%;
+    left: 36.5%;
   }
 }
 
@@ -230,12 +229,12 @@ footer {
 @media (min-width: 1680px){
 
   .login-form {
-    transform: translate(-23.5%, -28%);
+    transform: translate(0%, -25%);
   }
 
   .loading-login:after {
-    top: 67%;
-    left: 49%;
+    top: 64%;
+    left: 36.3%;
   }
 }
 
@@ -248,7 +247,7 @@ footer {
   }
 
   .loading-login:after {
-    top: 68.5%;
+    top: 65.5%;
   }
 }
 

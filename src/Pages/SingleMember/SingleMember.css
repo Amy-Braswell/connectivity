@@ -3,7 +3,6 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 5%;
-  transform: translate(-0%, -100vh);
 }
 
 .single-member__title {
@@ -166,10 +165,6 @@
 
 /******************************** TABLETS AND UP *******************************/
 @media (min-width: 1000px){
-
-  .single-member-main {
-    transform: translate(0, 0);
-  }
 
   .single-member-main .Button--back {
     top: -6.75vh;
