@@ -46,7 +46,7 @@ export default function Login(props) {
       <div className='login-section'>
       
           <Form onSubmit={onSubmit} className={loading ? 'login-form loading-login' : 'login-form'}>
-          
+            {/* <Form onSubmit={onSubmit} className='login-form loading-login'> */}
             {Object.keys(errors).length > 0 && (
               <div className="Error Message">
                 <ul className="Error__list">
@@ -96,8 +96,8 @@ export default function Login(props) {
               </li>
             </ul>
           </Form>
-
       </div>
+      <footer className='footer'><p>.</p></footer>
     </section>
   )
 }

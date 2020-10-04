@@ -1,7 +1,10 @@
 
 .menubar__flex-container {
+  position: fixed;
+  top: 5vh;
+  right: 3%;
   display: flex;
-  width: 100%;
+  width: 40%;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;

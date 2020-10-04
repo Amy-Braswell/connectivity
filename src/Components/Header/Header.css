@@ -20,6 +20,8 @@
 }
 
 .app__header__logo__container h1 {
+    position: fixed;
+    top: 2vh;
     font-family: Helvetica Neue;
     font-size: 3em;
     letter-spacing: .08em;
