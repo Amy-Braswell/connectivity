@@ -9,6 +9,7 @@ footer {
   height: 28vh;
   width: 100%;
   bottom: 0;
+  color: #056CF2;
   background:#056CF2;
   z-index: 1000;
 }
