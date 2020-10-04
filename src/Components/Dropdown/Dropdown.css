@@ -46,7 +46,7 @@
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
     width: 100%;
     position: relative;
-    top: 3.5vh;
+    top: 11.5vh;
 }
 
 
@@ -71,9 +71,7 @@
 
 .dd__li__button:hover, .dd__li__button:focus {
     cursor: pointer;
-    font-weight: bold;
-    background-color: #d0dfdc;
-    color: white;
+    background-color: #fff;
 }
 
 li {

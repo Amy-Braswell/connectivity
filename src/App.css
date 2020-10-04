@@ -25,24 +25,25 @@
 
 .App__main {
   background-color: white;
-  width: 100.25%;
   position: relative;
-  left: -.25%;
   margin-top: 14vh;
-  padding-bottom: 7vh;
+  padding-bottom: 15vh;
   padding-top: 3vh;
   height: 100vh;
   max-height: 100vh;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 .App__sidebar {
   display: block;
-  height: 100vh;
-  width: 0%;
-  max-height: 100vh;
-  min-height: 100vh;
-  transform: translate(-0%, 8%);
+  height: 5vh;
+  width: 100%;
+  max-height: 5vh;
+  min-height: 5vh;
+  position: fixed;
+  z-index: 500;
+  bottom: 0;
   overflow-y: hidden;
 }
 
@@ -99,7 +100,7 @@ a {
   font-size: 1.3em;
   position: relative;
   top: -2vh;
-  left: 64%;
+  left: 80%;
 }
 
 .Button--back > span {
@@ -402,12 +403,11 @@ ul.ItemPageMain__Activity__List {
   }
 
   .App__sidebar {
-    grid-area: sidebar;
+    grid-area: sidebar !important;
     height: 100vh;
-    width: 100%;
+    width: 20%;
     overflow: auto;
   } 
-
 
   .Button--back {
     width: 8%;
