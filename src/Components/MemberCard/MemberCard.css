@@ -94,49 +94,13 @@
   .member-card__thumbnail .Tooltip-message {
     position: relative;
     margin-left: 9%;
-    top: -34vh !important;
+    top: -38vh !important;
   }
 
   .member-card__thumbnail .Tooltip-message:after {
     position: absolute;
-    top: 4.6vh !important;
+    top: 5.1vh !important;
   }
 
 }
 
-/**************************************** FOR DESKTOPS AND UP ************************************/
-@media (min-width: 1440px){
-  .member-card__thumbnail .Tooltip-message {
-    position: relative;
-    margin-left: 4.5%;
-    top: -33vh !important;
-  }
-  
-  .member-card__thumbnail .Tooltip-message:after {
-    position: absolute;
-    margin-left: 5px;
-    left: 46%;
-    top: 4.6vh !important;
-  }
-
-}
-
-/**************************************** FOR DESKTOPS AND UP ************************************/
-@media (min-width: 1680px){
-  .member-card__thumbnail .Tooltip-message {
-    margin-left: 4.5%;
-    top: -28vh !important;
-
-  }
-  
-  .member-card__thumbnail .Tooltip-message:after {
-    margin-left: 5px;
-    left: 46%;
-    top: 3.9vh !important;
-  }
-}
-
-
-
-
-  

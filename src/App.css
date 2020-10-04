@@ -39,7 +39,7 @@
 .App__sidebar {
   display: block;
   height: 100vh;
-  width: 100%;
+  width: 0%;
   max-height: 100vh;
   min-height: 100vh;
   transform: translate(-0%, 8%);
@@ -99,7 +99,7 @@ a {
   font-size: 1.3em;
   position: relative;
   top: -2vh;
-  left: 84%;
+  left: 64%;
 }
 
 .Button--back > span {
@@ -404,6 +404,7 @@ ul.ItemPageMain__Activity__List {
   .App__sidebar {
     grid-area: sidebar;
     height: 100vh;
+    width: 100%;
     overflow: auto;
   } 
 

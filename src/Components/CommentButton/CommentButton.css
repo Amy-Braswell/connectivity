@@ -21,33 +21,11 @@ top: calc(35px) !important;
 /***************************For Laptops and Up****************************/
 @media (min-width: 1440px){  
     .comment__button .Tooltip-message {
-        top: calc(-7.25vh - 14px) !important;
+        top: calc(-8.25vh - 14px) !important;
     }
     
     .comment__button .Tooltip-message:after {
-        top: 4.5vh !important;
-    }
-  }
-
-/***************************For Laptops and Up****************************/
-@media (min-width: 1680px){  
-    .comment__button .Tooltip-message {
-        top: calc(-6.25vh - 14px) !important;
-    }
-    
-    .comment__button .Tooltip-message:after {
-        top: 3.9vh !important;
-    }
-  }
-
-/***************************For Desktops and Up****************************/
-@media (min-width: 1920px){  
-    .comment__button .Tooltip-message {
-        top: calc(-6.25vh - 14px) !important;
-    }
-    
-    .comment__button .Tooltip-message:after {
-        top: 3.9vh !important;
+        top: 5.3vh !important;
     }
   }
 

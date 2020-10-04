@@ -31,10 +31,11 @@ footer {
   display: flex;
   color: white;
   height: 100vh;
-  padding-bottom: 50vh;
   min-height: 100vh;
   max-height: 100vh;
   overflow-y: hidden;
+  padding-left: 5%;
+  transform: translate(-0%, -110vh);
 }
 
 .login-form {
@@ -133,7 +134,7 @@ footer {
 .loading-login:after {
   position: absolute;
   content: '';
-  top: 45%;
+  top: 50%;
   left: 45%;
   margin: -1.5em 0em 0em -1.5em;
   width: 6em;
@@ -182,7 +183,8 @@ footer {
 @media (min-width: 1000px){
 
   .login-section { 
-    transform: translate(-0%, -30%); 
+    transform: translate(-3%, -30%);
+    padding-left: 0; 
   }
 
   .login-form {

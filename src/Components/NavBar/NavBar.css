@@ -129,9 +129,9 @@
 @media (min-width: 1440px){
 
   .nav__bar .nav__item .Tooltip-message {
-    width: 30%;
+    width: 34%;
     left: 31%;
-    top: calc(-11vh - 14px) !important;
+    top: calc(-13vh - 14px) !important;
   }
 
   .nav__bar .nav__item .Tooltip-message:after {
@@ -140,18 +140,7 @@
 
 }
 
-/**************************************** FOR DESKTOPS AND UP ************************************/
-@media (min-width: 1680px){
 
-  .nav__bar .nav__item .Tooltip-message {
-    top: -10.75vh !important;
-  } 
-
-  .nav__bar .nav__item .Tooltip-message:after {
-    top: calc(38px) !important;
-  }
-
-}
 
 
 

@@ -11,6 +11,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 5% 9vh;
+  transform: translate(-0%, -110vh);
   }
 
 .home__title {
@@ -49,7 +50,11 @@ textarea {
   outline: none;
 }
 
+/***************************For Tablets and Up****************************/
 
-
-
+@media (min-width: 1000px){
+  .home-main {
+    transform: translate(0, 0);
+  }
+}
 

@@ -1,9 +1,10 @@
 .single-post-main {
-    height: auto;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 5%;
-  }
+  height: auto;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5%;
+  transform: translate(-0%, -100vh);
+}
 
 .single-post__title {
   font-size: 2em;
@@ -218,6 +219,10 @@
 
 /******************************** TABLETS AND UP *******************************/
   @media (min-width: 1000px){
+
+    .single-post-main {
+      transform: translate(0, 0);
+    }
 
     .single-post-main .Button--back {
       top: -7vh;
