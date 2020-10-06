@@ -2,7 +2,7 @@
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 0 5% 15vh;
+  padding: 0 5% 25vh;
 }
 
 .single-post__title {
@@ -110,6 +110,7 @@
     align-self: flex-end;
     /* new */
     height: 100%;
+    min-height: 100%;
   }
 
   /************** Comments Section ***************/
