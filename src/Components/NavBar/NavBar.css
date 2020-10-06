@@ -99,13 +99,13 @@
 
     .nav__flex-container {
         flex-direction: column;
-        padding-top: 4vh;
+        padding-top:14vh;
         font-size: 3em;
     }
 
     .nav__item {
         flex-direction:column;
-        padding-top: 15vh;
+        padding-top: 13vh;
     } 
 
     .nav__bar .nav__item .Tooltip-message {

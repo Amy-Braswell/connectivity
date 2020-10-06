@@ -61,7 +61,7 @@
 }
 
 p.post-card__body {
-  margin-top: 1vh;
+  margin: 1vh 0;
 }
 
 .post-card__dates {
@@ -76,7 +76,9 @@ p.post-card__body {
   justify-content: space-between;
   align-items: center;
   margin-top: 2vh;
-  height: 25%;
+  /* new  25% */
+  height: 30%;
+  margin-bottom: 2vh;
 }
 
 .other-buttons__container {
@@ -89,6 +91,8 @@ p.post-card__body {
 .delete-button__container {
   flex-basis: 10%;
   align-self: flex-end;
+  /* new */
+  height: 100%
 }
 
 

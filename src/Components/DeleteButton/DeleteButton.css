@@ -87,11 +87,11 @@
 
 .delete__button .Tooltip-message {
   top: calc(-9.5vh - 14px) !important;
-  left: -40% !important;
+  left: -30% !important;
 }
 
 .delete__button .Tooltip-message:after {
-  top: calc(35px) !important;
+  top: calc(38px) !important;
 }
 
 

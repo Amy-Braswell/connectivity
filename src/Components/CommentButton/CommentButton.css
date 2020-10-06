@@ -1,10 +1,10 @@
 .comment__button .Tooltip-message {
     top: calc(-9.5vh - 14px) !important;
-    left: 10% !important;
+    left: -25% !important;
   }
   
 .comment__button .Tooltip-message:after {
-top: calc(35px) !important;
+top: calc(38px) !important;
 }
 
 /***************************For Tablets and Up****************************/

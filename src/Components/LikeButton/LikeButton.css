@@ -1,10 +1,10 @@
 .like__button .Tooltip-message {
     top: calc(-9.5vh - 14px) !important;
-    left: 0% !important;
+    left: -40% !important;
   }
   
 .like__button .Tooltip-message:after {
-    top: calc(35px) !important;
+    top: calc(38px) !important;
 }
 
 /***************************For Tablets and Up****************************/

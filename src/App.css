@@ -96,7 +96,7 @@ a {
   color: white;
   outline: none;
   height: 100%;
-  width: 13%;
+  width: 20%;
   padding: 9px 8px;
   font-size: 1.3em;
   position: relative;
@@ -122,8 +122,10 @@ a {
   color: white;
   outline: none;
   height: 100%;
-  margin: 0 20px;
-  width: 100%;
+  /* new */
+  margin: 0 10px;
+  /* new */
+  width: 80%;
   padding: 9px 10px;
   font-size: 1.3em;
 }
@@ -145,8 +147,12 @@ a {
   border-radius: 5px;
   outline: none;
   height: 100%;
-  width: 100%;
-  padding: 9px 25px;
+  /* new */
+  margin: 0 10px;
+  /* new */
+  width: 80%;
+  /* new */
+  padding: 12px 15px 13px;
   color: #fff;
   font-size: 1.2em;
 }
@@ -167,8 +173,10 @@ a {
   outline: none;
   height: 100%;
   margin-right: 20px;
-  width: 100%;
-  padding: 9px 20px;
+  /* new */
+  width: 80%;
+  /* new */
+  padding: 9px 10px;
   font-size: 1.3em;
 }
 
@@ -413,8 +421,12 @@ ul.ItemPageMain__Activity__List {
   } 
 
   .Button--back {
-    width: 8%;
-    left: 92%;
+    width: 10%;
+    left: 90%;
+  }
+
+  .Button--delete  {
+    padding: 15px;
   }
 
   .Mobile__header {

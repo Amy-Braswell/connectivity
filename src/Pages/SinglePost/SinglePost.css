@@ -2,7 +2,7 @@
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 5% 10vh;
 }
 
 .single-post__title {
@@ -94,7 +94,8 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 2vh;
-    height: 25%;
+    /* new */
+    height: 30%;
   }
 
   .single-other-buttons__container {
@@ -107,6 +108,8 @@
   .single-delete-button__container {
     flex-basis: 10%;
     align-self: flex-end;
+    /* new */
+    height: 100%;
   }
 
   /************** Comments Section ***************/
