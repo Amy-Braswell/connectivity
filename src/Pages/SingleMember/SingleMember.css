@@ -2,7 +2,7 @@
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 5% 25vh;
 }
 
 .single-member__title {
@@ -49,7 +49,7 @@
   height: 125px;
   overflow: hidden;
   border-radius: 50%;
-  margin: -13vh auto 0;
+  margin: -23vh auto 0;
   border: 1px solid black;
 }
 
@@ -196,7 +196,7 @@
   {
       width: 150px;
       height: 150px;
-      margin: -11vh auto 0;
+      margin: -21vh auto 0;
   }
 
   .single-member-card__info
@@ -222,7 +222,7 @@
 
   .single-member-card__thumbnail--round
   {
-    margin: -8.5vh auto 0;
+    margin: -17.5vh auto 0;
   }
 
 }
@@ -242,7 +242,7 @@
 
   .single-member-card__thumbnail--round
   {
-    margin: -7vh auto 0;
+    margin: -12vh auto 0;
   }
 
 }

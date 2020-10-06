@@ -6,7 +6,7 @@ form {
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 0 5%;
+  padding: 0 5% 25vh;
 }
 
 .update-member__title {
@@ -47,7 +47,7 @@ form {
   height: 125px;
   overflow: hidden;
   border-radius: 50%;
-  margin: -13vh auto 0;
+  margin: -23vh auto 0;
   border: 1px solid black;
 }
 
@@ -254,7 +254,7 @@ input.update-answer
   {
     width: 150px;
     height: 150px;
-    margin: -11vh auto 0;
+    margin: -21vh auto 0;
   }
 
   .update-member-card__info
@@ -285,7 +285,7 @@ input.update-answer
 
   .update-member-card__thumbnail--round
   {
-    margin: -8.5vh auto 0;
+    margin: -17.5vh auto 0;
   }
 
   .update-member-card__name {
@@ -310,7 +310,7 @@ input.update-answer
 
   .update-member-card__thumbnail--round
   {
-    margin: -7vh auto 0;
+    margin: -12vh auto 0;
   }
 
 }
