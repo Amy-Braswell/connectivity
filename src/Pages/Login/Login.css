@@ -3,7 +3,7 @@
 footer {
   position: fixed;
   display: inline-block;
-  height: 28vh;
+  height: 23vh;
   width: 100%;
   bottom: 0;
   color: #056CF2;
@@ -13,11 +13,7 @@ footer {
 
 .login-main {
   position: fixed;
-  z-index: 500;
-  height: 100vh;
-  min-height: 100vh;
-  max-height: 100vh;
-  overflow-y: hidden;
+  background-color: #056CF2;
 }
 
 .login-section {
@@ -26,21 +22,22 @@ footer {
   width: 100%;
   text-align: center;
   display: flex;
-  color: white;
   height: 100vh;
   min-height: 100vh;
   max-height: 100vh;
   overflow-y: hidden;
   padding-left: 5%;
   transform: translate(0%, -10vh);
+  z-index: 1000
 }
 
 .login-form {
   position: fixed;
   width: 90%;
-  padding: 38% 0 10%;
+  top: 20vh;
   background-color: #056CF2;
   transition: .2s;
+  z-index: 5000;
 }
 
 .login-form h2 {
@@ -131,8 +128,8 @@ footer {
 .loading-login:after {
   position: absolute;
   content: '';
-  top: 50%;
-  left: 45%;
+  top: 17%;
+  left: 45%; 
   margin: -1.5em 0em 0em -1.5em;
   width: 6em;
   height: 6em;
@@ -188,10 +185,11 @@ footer {
   .login-form {
     width: 100%;
     padding-right: 25%;
+    top: 40vh;
   }
 
   .loading-login:after {
-    top: 58%;
+    top: 18%;
     left: 35%;
   }
 
@@ -200,10 +198,6 @@ footer {
 /***************************For Large Laptops and Up****************************/
 
 @media (min-width: 1440px){
-
-  .login-form {
-    transform: translate(0%, -20%);
-  }
 
   footer {
     position: fixed;
@@ -216,36 +210,11 @@ footer {
   }
 
   .loading-login:after {
-    top: 62%;
+    top: 16%;
     left: 36.5%;
   }
 }
 
-/***************************For Large Desktops and Up****************************/
 
-@media (min-width: 1680px){
-
-  .login-form {
-    transform: translate(0%, -25%);
-  }
-
-  .loading-login:after {
-    top: 64%;
-    left: 36.3%;
-  }
-}
-
-/***************************For Large Desktops and Up****************************/
-
-@media (min-width: 1920px){
-
-  .login-form {
-    transform: translate(-22%, -33%);
-  }
-
-  .loading-login:after {
-    top: 65.5%;
-  }
-}
 
 

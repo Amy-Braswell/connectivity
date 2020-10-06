@@ -2,7 +2,7 @@
   height: auto;
   width: 100%;
   margin: 0 auto;
-  padding: 0 5% 10vh;
+  padding: 0 5% 15vh;
 }
 
 .single-post__title {
@@ -229,6 +229,10 @@
     .single-post-card__flex-container
     {
       padding-top: 1vh;
+    }
+
+    .single-post-main {
+      padding: 0 5% 10vh;
     }
 
     .single-post-card__thumbnail

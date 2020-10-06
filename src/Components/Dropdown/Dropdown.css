@@ -44,6 +44,7 @@
 
 .dd__list {
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    background-color: white;
     width: 100%;
     position: relative;
     top: 11.5vh;
@@ -52,6 +53,7 @@
 
 .dd__li__button {
     display: flex;
+    background-color: white;
     justify-content: space-between;
     font-size: 1.4em;
     padding-bottom: 2.2em;
